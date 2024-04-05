@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+  background-color: #FFFF;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #FFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 3vmin);
+  color: black;
+  margin-top: 0;
+  margin-bottom: 3vh;
+}
+
+.App-header p{
+  font-size: calc(10px + 1vmin);
+  color: black;
+}
+
+.App-header a:visited{
+  color: black;
+}
+
+.App-header a{
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button {
+  background-color: "blue";
+  padding: 15px;
+}
+
+#SearchBar{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 70vh;
+  padding: 12px 20px;
+  font-size: large;
+}
+#SearchButton{
+  width: 100%;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#LoginBar{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 60vh;
+  padding: 12px 20px;
+  font-size: large;
+}
+
+#LoginButton{
+  width: 60vh;
+  background-color: #62a9e0;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+}
+
+#AddTrip{
+  width: 30vh;
+  background-color: #62a9e0;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+}
+
+#navbar{
+  width: 100%;
+  padding-bottom: 5vh;
+  min-height: 3vh;
+}
+
+#title{
+  width: auto;
+  float:left;
+  text-align: left;
+  color: black;
+  font-size: xx-large;
+  margin-top: 1.5vh;
+  padding-left: 2vh;
+}
+
+#title a, a:visited{
+  color:black;
+  text-decoration: none;
+}
+
+#navdiv{
+  width: 50%;
+  float: right;
+  background-color: #FFFF;
+  text-align: right;
+  font-size: x-large;
+}
+
+#navdiv ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navdiv li{
+  display: inline-block;
+  margin-right: 5vh; /* add some space between items */
+  margin-top: 2vh;
+}
+
+#navdiv a{
+  color: black;
+  text-decoration: none;
+}
+
+#footer{
+  color:black;
+  min-height: 6vh;
+  background-color: #DEE4E7;
+  font-size: medium;
+  text-align: center;
+}
+
+#footer_title{
+  padding-top: 2.5vh;
+}
+
+#landing_content_l{
+  width: 45%;
+  float: left;
+  text-align: left;
+  margin-right: 5%;
+}
+
+#landing_content_l p{
+  font-size: x-large;
+}
+
+#landing_content_r{
+  width: 45%;
+  float: right;
+  margin-left: 5%;
+  text-align: left;
+}
+#landing_content_r p{
+  font-size: x-large;
+}
+
+#placeholder_l img{
+  width: 45%;
+  float: left;
+}
+#placeholder_r img{
+  width: 45%;
+  float: right;
+}
+
+#container{
+  padding:4vh;
+}
+
+#landing_content_c{
+  width: 50%;
+}
